@@ -2,4 +2,4 @@
 USE burgers_db;
 -- Insert new rows of data.
 INSERT INTO burgers (burger_name, devoured)
-VALUES ("hamburger", false), ("cheeseburger", false), ("tofu burger", false);
+VALUES ("hamburger", false), ("cheeseburger", false), ("tofu burger", false), ("Chili Burger", false), ("BocaBurger", false), ("Angus Burger", false), ("Loki Burger", false), ("Breakfast Burger", false);

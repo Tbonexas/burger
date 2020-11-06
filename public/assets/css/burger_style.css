@@ -1,13 +1,20 @@
-.jumbotron {
-    background-image: url("/assets/img/background.jpg");
+body {
+    background-image: url("/assets/img/HomerBackground.jpg");
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-position: right;
+}
+
+.jumbotron {
+    background-image: url("/assets/img/krustyburger.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
     margin-top: 10px;
 }
 
 .jumbotron > h1 {
-    font-family: 'Creepster', cursive;
+    font-family: 'Gloria Hallelujah', cursive;
+    
 }
 
 #newburger {
@@ -15,7 +22,9 @@
 }
 
 #color-override {
-    color: #fff;
+    color: black;
+    text-align: left;
+    font-family: 'Gloria Hallelujah', cursive;
 }
 
 #lefthead {
