@@ -1,2 +1,9 @@
-# burger
-Eat-Da-Burger Week 13 Homework
+# Krusty Burger "Over Dozens Sold!"  
+
+## Live on Heroku  
+
+## Description  
+
+## Credits  
+
+## My Info
