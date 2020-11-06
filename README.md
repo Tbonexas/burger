@@ -18,5 +18,12 @@ Your app will store every burger in a database, whether devoured or not.
 
 
 ## Credits  
+*Tbonexas*     
+*Express*
+*Handlebars*  
+*MySql*      
+*Node* 
 
 ## My Info
+[LinkedIn](https://www.linkedin.com/in/todd-murdoch)    
+[Portfolio](https://tbonexas.github.io/portfolio)  
