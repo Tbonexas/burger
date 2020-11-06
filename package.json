@@ -1,0 +1,31 @@
+{
+  "name": "eatdaburger",
+  "version": "1.0.0",
+  "description": "Node Express Handlebars to create Eat-Da-Burger App on Heroku",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tbonexas/burger.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "handlebars",
+    "javascript"
+  ],
+  "author": "Todd Wayment",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tbonexas/burger/issues"
+  },
+  "homepage": "https://github.com/Tbonexas/burger#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "mysql": "^2.18.1"
+  }
+}
