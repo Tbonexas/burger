@@ -1,21 +1,18 @@
 // Connect Node to MySQL.
-var mysql = require("mysql");
-
-var connection = mysql.createConnection({
-    host: "localhost",
-    port: 3306, //default port for MySQL //
-    user: 'dwaehiqslzfzvrcz',
-    password: 't271g5e22bjeo7j8',
-    database: "	csne2l0o2roo8awf"
-});
-
-connection.connect(function(err) {
-    if (err) {
-        console.error("error connecting: " + err.stack);
-        return;
-    }
-    console.log("connected as id " + connection.threadId);
-});
-
-// Export the connection.
+const mysql = require("mysql");
+let connection;
+//make connection
+if (process.env.JAWSDB_URL) {
+  connection = mysql.createConnection(process.env.JAWSDB_URL);
+} else {
+  connection = mysql.createConnection({
+    port: 3306,
+    host: "op2hpcwcbxb1t4z9.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    user: "dwaehiqslzfzvrcz",
+    password: "t271g5e22bjeo7j8",
+    database: "csne2l0o2roo8awf"
+  });
+}
+connection.connect();
+// Export connection for our ORM to use.
 module.exports = connection;
