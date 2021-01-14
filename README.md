@@ -34,4 +34,4 @@ Your app will store every burger in a database, whether devoured or not.
 
 ## My Info
 [LinkedIn](https://www.linkedin.com/in/todd-murdoch)    
-[Portfolio](https://tbonexas.github.io/portfolio)  
+[Portfolio](https://tbonexas.github.io/reactportfolio)  
